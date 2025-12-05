@@ -1,0 +1,81 @@
+{
+  "mahasiswa_sample_data": [
+    {
+      "nim": "2021001",
+      "nama": "Ahmad Rizki",
+      "jurusan": "Teknik Informatika",
+      "semester": 5,
+      "createdAt": "2024-01-15T10:00:00.000Z"
+    },
+    {
+      "nim": "2021002",
+      "nama": "Siti Nurhaliza",
+      "jurusan": "Sistem Informasi",
+      "semester": 5,
+      "createdAt": "2024-01-15T10:05:00.000Z"
+    },
+    {
+      "nim": "2021003",
+      "nama": "Budi Santoso",
+      "jurusan": "Teknik Komputer",
+      "semester": 3,
+      "createdAt": "2024-01-15T10:10:00.000Z"
+    },
+    {
+      "nim": "2021004",
+      "nama": "Dewi Lestari",
+      "jurusan": "Teknik Informatika",
+      "semester": 7,
+      "createdAt": "2024-01-15T10:15:00.000Z"
+    },
+    {
+      "nim": "2021005",
+      "nama": "Rizal Firmansyah",
+      "jurusan": "Sistem Informasi",
+      "semester": 3,
+      "createdAt": "2024-01-15T10:20:00.000Z"
+    },
+    {
+      "nim": "2021006",
+      "nama": "Maya Anggraini",
+      "jurusan": "Teknik Elektro",
+      "semester": 5,
+      "createdAt": "2024-01-15T10:25:00.000Z"
+    },
+    {
+      "nim": "2021007",
+      "nama": "Eko Prasetyo",
+      "jurusan": "Teknik Informatika",
+      "semester": 1,
+      "createdAt": "2024-01-15T10:30:00.000Z"
+    },
+    {
+      "nim": "2021008",
+      "nama": "Rina Wijayanti",
+      "jurusan": "Sistem Informasi",
+      "semester": 7,
+      "createdAt": "2024-01-15T10:35:00.000Z"
+    }
+  ],
+  "catatan": {
+    "collection_name": "mahasiswa",
+    "instruksi": "Copy data di atas satu per satu ke Firebase Firestore Console",
+    "field_types": {
+      "nim": "string",
+      "nama": "string",
+      "jurusan": "string",
+      "semester": "number",
+      "createdAt": "string"
+    },
+    "cara_menambahkan": [
+      "1. Buka Firebase Console > Firestore Database",
+      "2. Klik 'Start collection' atau pilih collection 'mahasiswa' jika sudah ada",
+      "3. Klik 'Add document'",
+      "4. Document ID: biarkan auto-generate",
+      "5. Tambahkan field sesuai dengan data di atas",
+      "6. Pastikan tipe data sesuai (string untuk nim, nama, jurusan; number untuk semester)",
+      "7. Klik 'Save'",
+      "8. Ulangi untuk data lainnya"
+    ]
+  }
+}
